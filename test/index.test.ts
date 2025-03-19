@@ -1,5 +1,5 @@
 import { expect, use } from 'chai';
-import chaiSnapshot from '../src/index';
+import chaiSnapshot from '../src/index.js';
 
 use(chaiSnapshot);
 
