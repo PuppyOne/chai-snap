@@ -1,0 +1,6 @@
+/node_modules/
+/__snapshots__/
+/coverage/
+*.d.ts
+*.js
+*.js.map
