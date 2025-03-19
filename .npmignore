@@ -2,6 +2,7 @@
 /.git/
 /.gitignore
 
+/__snapshots__/
 /node_modules/
 /coverage/
 /tsconfig.json
