@@ -1,4 +1,11 @@
 {
+  "scripts": {
+    "build": "tsc",
+    "build:dev": "tsc --sourceMap",
+    "test": "mocha",
+    "coverage": "c8 --reporter=html --reporter=text --all npm test",
+    "coverage:ci": "c8 --100 --reporter=html --reporter=text --all npm test"
+  },
   "devDependencies": {
     "@types/chai": "^5.2.0",
     "@types/mocha": "^10.0.10",
