@@ -10,6 +10,9 @@
     "bdd",
     "tdd"
   ],
+  "publishConfig": {
+    "provenance": true
+  },
   "homepage": "https://github.com/PuppyOne/chai-snap#readme",
   "bugs": {
     "url": "https://github.com/PuppyOne/chai-snap/issues"
