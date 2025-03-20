@@ -1,6 +1,6 @@
 {
   "name": "chai-snap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Snapshot testing plugin for Chai",
   "keywords": [
     "chai",
