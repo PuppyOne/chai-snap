@@ -6,3 +6,11 @@ export default function chaiSnap(_chai:Chai.ChaiStatic, utils:Chai.ChaiUtils) {
     snapshot(obj);
   }); 
 }
+
+declare global {
+  namespace Chai {
+    interface Assertion {
+      snapshot(): void;
+    }
+  }
+}
