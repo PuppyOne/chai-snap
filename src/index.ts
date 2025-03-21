@@ -10,7 +10,7 @@ export default function chaiSnap(_chai:Chai.ChaiStatic, utils:Chai.ChaiUtils) {
 declare global {
   namespace Chai {
     interface Assertion {
-      snapshot(): void;
+      snapshot(): Assertion;
     }
   }
 }
