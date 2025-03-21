@@ -14,3 +14,14 @@ exports['chai-snap matching different types should match object snapshot 1'] = {
 exports['chai-snap cooperating with other plugins should cooperate with chai-as-promised 1'] = `
 test
 `
+
+exports['chai-snap should match multiple snapshots in one test 1'] = `
+test
+`
+
+exports['chai-snap should match multiple snapshots in one test 2'] = 1
+
+exports['chai-snap should match multiple snapshots in one test 3'] = {
+  "id": 1,
+  "I": "am"
+}

@@ -33,6 +33,12 @@ describe('chai-snap', () => {
     });
   });
 
+  it('should match multiple snapshots in one test', () => {
+    expect('test').to.snapshot();
+    expect(1).to.snapshot();
+    expect({ id: 1, I: 'am', a: Object }).to.snapshot();
+  });
+
   context('cooperating with other plugins', () => {
     it('should cooperate with chai-as-promised', () => {
       expect(Promise.resolve('test')).to.eventually.fulfilled;
