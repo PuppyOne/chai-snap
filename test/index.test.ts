@@ -39,6 +39,10 @@ describe('chai-snap', () => {
     expect({ id: 1, I: 'am', a: Object }).to.snapshot();
   });
 
+  it('should support chained assertions',()=>{
+    expect('test').to.match(/^t[a-z]+t$/).snapshot().and.be.a('string');
+  })
+
   context('cooperating with other plugins', () => {
     it('should cooperate with chai-as-promised', () => {
       expect(Promise.resolve('test')).to.eventually.fulfilled;
