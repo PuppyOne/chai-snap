@@ -24,6 +24,7 @@ expect('test').to.snapshot();
 
 - Intuitive assertion syntax: `expect(value).to.snapshot()`
 - Simple snapshot testing integration for Chai
+- Chainable assertions: Seamlessly combine with other Chai methods
 - Type safety
 - Compatible with Mocha and other test runners
 
@@ -64,7 +65,7 @@ use(chaiSnap);
 
 describe('Snapshot Testing', () => {
   it('should match snapshot', () => {
-    expect('test').to.snapshot();
+    expect('test').to.snapshot().and.be.a('string');
   });
 });
 ```

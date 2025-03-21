@@ -25,3 +25,7 @@ exports['chai-snap should match multiple snapshots in one test 3'] = {
   "id": 1,
   "I": "am"
 }
+
+exports['chai-snap should support chained assertions 1'] = `
+test
+`
