@@ -33,8 +33,8 @@
     "build": "tsc",
     "build:dev": "tsc --sourceMap",
     "test": "mocha",
-    "coverage": "c8 --reporter=html --reporter=text --all npm test",
-    "coverage:ci": "c8 --100 --reporter=html --reporter=text --all npm test",
+    "coverage": "c8 npm test",
+    "coverage:ci": "c8 --100 npm test",
     "release": "semantic-release",
     "prepare": "husky"
   },

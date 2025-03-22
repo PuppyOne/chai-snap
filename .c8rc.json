@@ -1,4 +1,6 @@
 {
   "src": "src",
-  "exclude": ["**/test/*", "*.d.ts"]
+  "exclude": ["**/test/*", "*.d.ts"],
+  "all": true,
+  "reporter": ["html", "text"]
 }
