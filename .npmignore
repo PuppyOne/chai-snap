@@ -7,6 +7,7 @@
 /coverage/
 /test/
 /CHANGELOG.md
+/.releaserc.json
 /tsconfig.json
 *.js.map
 *.ts
