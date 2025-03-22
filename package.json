@@ -52,11 +52,12 @@
     "husky": "^9.1.7",
     "mocha": "^11.1.0",
     "semantic-release": "^24.2.3",
-    "snap-shot-it": "^7.9.10",
     "typescript": "^5.8.2"
   },
   "peerDependencies": {
-    "chai": "5.x",
-    "snap-shot-it": "7.x"
+    "chai": "5.x"
+  },
+  "dependencies": {
+    "snap-shot-it": "^7.9.10"
   }
 }
