@@ -9,7 +9,8 @@
 /test/
 /CHANGELOG.md
 /.releaserc.json
-/commitlint.config.js
+/commitlint.config.cjs
+/.c8rc.json
 /tsconfig.json
 *.js.map
 *.ts
