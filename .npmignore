@@ -5,8 +5,8 @@
 /__snapshots__/
 /node_modules/
 /coverage/
-/tsconfig.json
 /test/
+/tsconfig.json
 *.js.map
 *.ts
 
