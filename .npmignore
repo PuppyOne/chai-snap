@@ -6,6 +6,7 @@
 /node_modules/
 /coverage/
 /test/
+/CHANGELOG.md
 /tsconfig.json
 *.js.map
 *.ts
