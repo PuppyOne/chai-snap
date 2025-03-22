@@ -54,7 +54,9 @@ Or if you prefer `should`:
 'test'.should.snapshot();
 ```
 
-Snapshot can also be named for more intuitive:
+_NEW in v1.2.0_:
+Snapshots can be named for better test clarity:
+
 ```typescript
 expect('test').to.snapshot('test-snapshot');
 ```
@@ -85,9 +87,10 @@ SNAPSHOT_UPDATE=1 npm test
 
 ## API Documentation 📖
 
-### `expect(value).to.snapshot()`
+### `expect(value).to.snapshot(name?)`
 
 - **`value`**: Any value to compare against stored snapshot
+- **`name`**: Optional name for the snapshot, generated from the name from the test title and snapshot index if not provided
 - **Behavior**:
   - Creates new snapshot on first run
   - Compares against stored snapshot in subsequent runs
