@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/PuppyOne/chai-snap/compare/v1.2.1...v1.2.2) (2025-03-22)
+
+
+### Bug Fixes
+
+* trigger ci publish ([#31](https://github.com/PuppyOne/chai-snap/issues/31)) ([37342df](https://github.com/PuppyOne/chai-snap/commit/37342dfdd33359a74faa16d6bd9d273fa57708a8))
+
 ## [1.2.1](https://github.com/PuppyOne/chai-snap/compare/v1.2.0...v1.2.1) (2025-03-22)
 
 
