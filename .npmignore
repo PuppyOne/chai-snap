@@ -4,10 +4,12 @@
 
 /__snapshots__/
 /node_modules/
+/.husky/
 /coverage/
 /test/
 /CHANGELOG.md
 /.releaserc.json
+/commitlint.config.js
 /tsconfig.json
 *.js.map
 *.ts
