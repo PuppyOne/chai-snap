@@ -54,6 +54,11 @@ Or if you prefer `should`:
 'test'.should.snapshot();
 ```
 
+Snapshot can also be named for more intuitive:
+```typescript
+expect('test').to.snapshot('test-snapshot');
+```
+
 ### Basic Example
 
 ```typescript
