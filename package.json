@@ -55,7 +55,7 @@
     "typescript": "^5.8.2"
   },
   "peerDependencies": {
-    "chai": "5.x"
+    "chai": "4.x - 5.x"
   },
   "dependencies": {
     "snap-shot-it": "^7.9.10"
